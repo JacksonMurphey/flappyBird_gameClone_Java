@@ -52,20 +52,20 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener {
 		// sets title for the window of game 
 		jFrame.setTitle("Flappy Bird");
 		
-		// sets to close/end the app was you exit out. 
+		// sets to close/end the app when you exit out. 
 		jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		// sets the size of the user view window 
 		jFrame.setSize(WIDTH, HEIGHT);
 		
-		// these are for the controls
+		// these are for controls
 		jFrame.addMouseListener(this);
 		jFrame.addKeyListener(this);
 		
 		// this makes it so our game window cannot be resized. 
 		jFrame.setResizable(false); 
 		
-		// Believe the is make the window visable to user. 
+		// Make the window visable to user. 
 		jFrame.setVisible(true);
 		
 		// setting the size of the bird to view on screen 
